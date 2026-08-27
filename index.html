@@ -1201,7 +1201,7 @@
             </p>
           </div>
           <button class="infra-figure" onclick="openInfraLightbox()" type="button" aria-label="네트워크 구성도 확대">
-            <img src="assets/네트워크구성도.png" alt="AWS 기반 Megazone PoPs 서비스 네트워크 구성도" loading="lazy" />
+            <img src="assets/network.png" alt="AWS 기반 Megazone PoPs 서비스 네트워크 구성도" loading="lazy" />
             <span class="infra-zoom">확대 ↗</span>
           </button>
         </div>
@@ -1787,7 +1787,7 @@ function openInfraLightbox() {
   const lb = document.getElementById('lightbox');
   const img = lb.querySelector('img');
   const cap = lb.querySelector('.lb-caption');
-  img.src = 'assets/네트워크구성도.png';
+  img.src = 'assets/network.png';
   img.alt = 'Megazone PoPs 서비스 AWS 네트워크 구성도';
   cap.innerHTML = 'Megazone PoPs 서비스 AWS 네트워크 구성도<small>Infrastructure · AWS VPC · EKS · Aurora · 3-AZ Multi-AZ</small>';
   lb.classList.add('open');
